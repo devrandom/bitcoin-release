@@ -9,6 +9,8 @@ The layout of this directory is:
         bitcoin-res.yml - the result file produced by the signer's build process
         signature.pgp - the signer's signature certifying the result
 
+This directory is created by the Gitian `gsign` command, after a successful `gbuild`.  It can be verified with `gverify`.
+
 Normally, all output manifests in the result files should be identical between different signers.
 
 See also:
