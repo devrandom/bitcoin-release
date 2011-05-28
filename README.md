@@ -6,8 +6,8 @@ The layout of this directory is:
 
     <release-name>/
       <signer>/
-        bitcoin-res.yml - the result file produced by the signer's build process
-        signature.pgp - the signer's signature certifying the result
+        bitcoin-build.assert - the result file produced by the signer's build process
+        bitcoin-build.assert.sig - the signer's signature certifying the result
 
 This directory is created by the Gitian `gsign` command, after a successful `gbuild`.  It can be verified with `gverify`.
 
