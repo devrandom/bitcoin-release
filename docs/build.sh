@@ -31,7 +31,9 @@ git checkout gitian0.3.22
 cd ../gitian-builder
 cp ../bitcoin/contrib/toplevel.* ./inputs/
 git pull
-./bin/gbuild --commit bitcoin=`cat sigs/bitcoin/0.3.22/commit` ../bitcoin/contrib/gitian.yml # 0.3.22
+./bin/gbuild --commit bitcoin=`cat sigs/bitcoin/0.3.22/commit` ../bitcoin/contrib/gitian.yml
+./bin/gsign -r 0.3.22 -s NAMEORNICK ../bitcoin/contrib/gitian.yml # to sign as a builder
+./bin/gverify -r 0.3.22 ../bitcoin/contrib/gitian.yml # to verify all reports with their signatures
 cd ..
 
 # To cross compile for Win32 (via MinGW)
@@ -40,5 +42,6 @@ git checkout crosscompile
 cd ../gitian-builder
 cp ../bitcoin/src/makefile.linux-mingw inputs/
 git pull
-./bin/gbuild --commit bitcoin=`cat sigs/bitcoin/0.3.22/commit` ../bitcoin/contrib/gitian-win32.yml # 0.3.22
+./bin/gbuild --commit bitcoin=`cat sigs/bitcoin/0.3.22/commit` ../bitcoin/contrib/gitian-win32.yml
+# see linux section for sign and verify
 cd ..
