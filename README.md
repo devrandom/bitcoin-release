@@ -15,5 +15,6 @@ Normally, all output manifests in the result files should be identical between d
 
 See also:
 
+* docs/build.sh
 * [Bitcoin](https://www.bitcoin.org/)
 * [Gitian builder](https://github.com/devrandom/gitian-builder)
