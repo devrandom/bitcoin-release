@@ -2,10 +2,10 @@
 - out_manifest: |
     cadc83f7eb89462a001a63171c66caade60f04446b720aa5b3acfefd4e8e15a9  COPYING
     1cfdb9703831a01f004b6a72e3184c1dd42a7d03af4d387a8905425cc61b704d  README
-    6a7a2266074af6e3d7dc200b9eadd91bc5260244e24e919c28759b9d8a3f4bec  bin/32/bitcoin
-    3ffe9a56a4b7348fc0c861adfb42a92d9b6145e76abf657dd2a7541af3f1fcaa  bin/32/bitcoind
-    359e8fac7f086dedcdeada5bf20ba95f061d1d37706c7b81cbd06aa657798a57  bin/64/bitcoin
-    0b56620ce6a86cffa90984c89990e5cd334837f7b5ea9c5ec31a5eb3dbfdb9bd  bin/64/bitcoind
+    ee915c4abbb5d307845b83f1e5ce4c640362e61770c3f6c33a5fccbcc9372f8b  bin/32/bitcoin
+    84a0ff8d64ec552be989d2116ea1437a6c707a4e545087277012ea48aa7c2775  bin/32/bitcoind
+    8f1d7f4c04a24f3071aa97a0f328575f38215c73b9dfee1b5118def1405ab96e  bin/64/bitcoin
+    e446eee9838d7464e26ed500986e15f407cc0ebd8a8fadae75ce3f74b09e5029  bin/64/bitcoind
     4509b26fd49a8c85e58adfa6d03a480401852a9c2ed6c758a9bdb26bdceb0bec  locale/cs/LC_MESSAGES/bitcoin.mo
     5b0288ea1129cd3a25b0198c8384e64d02f1b58bf3f50ca3f634ca1fb219ed68  locale/cs/LC_MESSAGES/bitcoin.po
     a66186a81c20404467a011829c509d8428e227952556a97fd9b960087be1c10c  locale/de/LC_MESSAGES/bitcoin.mo
@@ -101,12 +101,12 @@
     d4f6ecfc6311b535a03a72a765f24460d9e4c8035ea75da7c6c11225f36a9f9b  src/src/makefile.osx
     0686b71f1931c64cc3e3777b7349f7d5ab718297a4317a42afd666df69ed4abf  src/src/makefile.unix
     0a80a18bc4bf53ab3af262f5022db4a69c87855b23f010ec83b95b6e678ec31e  src/src/makefile.vc
-    0c67dffc1b649454cf03ec445fb630ed0c748ec663a91ca56f19d6c2026b0646  src/src/net.cpp
+    b9429d2dd72db9cbb0b66cedd2583d9f30dd12e951c80a01b35b1829f6251ac8  src/src/net.cpp
     ac3c8501213abb1a8b549eb6611b31bd97ccebc448bde1c6229c00ddbeddeda8  src/src/net.h
     3e3333e49cc0a98198c84985b11d1c24ca86016a41b3f304ef055e9281a11a96  src/src/noui.h
     240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d  src/src/obj/.gitignore
     240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d  src/src/obj/nogui/.gitignore
-    3df5e377e8b72ea9ae3ff774c08bbf5b7c76538acb4730ebd3a466b7b11dff8a  src/src/rpc.cpp
+    fea6d771399143758b7c3d0629a412731047fbcce5008a990238a596410189a5  src/src/rpc.cpp
     144f6298412b7f37bacf7334cd4bdad8223760fbf164cbb9f364682501eda86b  src/src/rpc.h
     a20632c8d7a08f59fd8121ee2274849679abb3bc40c44106b48798d98f078da2  src/src/script.cpp
     8ee116d9202baf34c73c15c0dbedfcee64c96476f80edf54c88ac739ed4d1ea5  src/src/script.h
